@@ -1,0 +1,27 @@
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: medium;
+}
+
+#mj {
+  border-color: black;
+}
+
+#bron {
+  border-color: crimson;
+}
+
+#mamba {
+  border-color: purple;
+}
+
+#magic {
+  border-color: purple;
+}
+
+#dream {
+  border-color: red;
+}

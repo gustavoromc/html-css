@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 5vh;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: blue;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.link li::before {
+  content: "|";
+}
+
+main {
+  display: flex;
+  height: 90vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 20vw;
+  background-color: blueviolet;
+}
+
+aside div {
+  height: 15vh;
+  margin: 3vh;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 6vh;
+  background-color: aquamarine;
+
+  /* height: 15vh;
+  margin: 3vh;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 6vh;
+  background-color: blueviolet;
+  color: white; */
+}
+
+main section {
+  padding: 1.5rem 1rem 1rem 1rem;
+  width: 80vw;
+  background-color: palevioletred;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 5vh;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: antiquewhite;
+}
+
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  height: 5vh;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.link li::before {
+  content: "|";
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+main {
+  display: flex;
+  height: 90vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: aquamarine;
+  width: 20vw;
+}
+
+aside div {
+  height: 15vh;
+  margin: 3vh;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 6vh;
+  background-color: blueviolet;
+  color: white;
+}
+
+section {
+  flex-grow: 1;
+  width: 80vw;
+  background-color: crimson;
+  color: blanchedalmond;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 5vh;
+  background-color: blue;
+  color: white;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+} */

@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+figure,
+nav {
+  display: inline-block;
+  position: absolute;
+  top: 2.5rem;
+  color: antiquewhite;
+}
+
+figure {
+  left: 2rem;
+}
+
+aside,
+section {
+  display: inline-block;
+  height: 80vh;
+}
+
+aside {
+  width: 20vw;
+  background-color: darkcyan;
+}
+
+section {
+  position: absolute;
+  left: 20vw;
+  width: 80vw;
+  background-color: burlywood;
+}
+
+header {
+  height: 10vh;
+  background-color: brown;
+}
+
+footer {
+  height: 10vh;
+  background-color: darkviolet;
+}
+
+aside div {
+  height: 15vh;
+  margin: 3vh;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 6vh;
+  background-color: chartreuse;
+}
+
+nav {
+  position: absolute;
+  right: 1.5rem;
+}
+
+.link::before {
+  content: "|";
+}
+
+#contact,
+#info {
+  display: inline-block;
+  color: white;
+}
+
+#info {
+  position: absolute;
+  right: 1.5rem;
+}
